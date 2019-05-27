@@ -1,0 +1,141 @@
+@media screen and (max-width: 375px) {
+	html{
+		font-size: 50px;
+	}
+}
+.header{
+	position: relative;
+	padding: .63rem 0.65rem;
+	text-align: center;
+}
+.header img{
+	position: absolute;
+	left: .2rem;
+	width: .20rem;
+	height: .35rem;
+}
+.header p{
+	font-size: .36rem;
+	color: #000000;
+}
+.container{
+	padding: 0 .29rem;
+}
+.container-middle{
+	position: relative;
+	text-align: center;
+	padding: .23rem 2rem 0;
+}
+.container-middle img{
+	width: 2.49rem;
+	height: 2.95rem;
+}
+.container-middle p{
+	font-size: .3rem;
+	color: #000000;
+	font-weight: 300;
+	margin: .3rem 0 .1rem;
+	color: #000000;
+}
+.container-middle p:last-child{
+	font-size: .36rem;
+	font-weight: 500;
+	margin: 0 0 .42rem;
+}
+ .container-middle .reday{
+		position: absolute;
+		border-radius: 50%;
+		opacity: 0.7;
+		background: #b2b2b2;
+		width: 2rem;
+		height: 2rem;
+		top: .7rem;
+		right: 2.5rem;
+		/* display: none; */
+}
+.container-middle .reday img{
+	width: 2rem;
+	height: 2rem;
+}
+.container .container-middle-2{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	border: 1px solid #e0e0e0;
+	border-radius: .25rem;
+	padding: .38rem .5rem .4rem;
+	margin-bottom: .25rem;
+}
+.container-middle-2 .item-p{
+	font-size: .28rem;
+	color: #656565;
+	margin-bottom: .4rem;
+}
+.container-middle-2 .item-p:nth-child(1){
+	margin-right: 2rem;
+}
+.container-middle-2 .item-p:nth-child(2){
+	font-weight: regular;
+	color: #e5e5e5;
+}
+.container-middle-2 .item-p:nth-child(3){
+	margin-right: 2rem;
+}
+.container-middle-2 .item-p:nth-child(5){
+	margin-right: 3rem;
+}
+.container-middle-3{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: .6rem;
+}
+.container-middle-3 p{
+	font-size: .22rem;
+	font-weight: medium;
+	color: #aaaaaa;
+}
+.container-middle-3 p span{
+	color: #f8c230;
+}
+.footer .f-background{
+	padding: 0;
+	background: #f8f8f8;
+	display: flex;
+	justify-content: space-between;
+	line-height: .47rem;
+	margin-bottom: .43rem;
+}
+.footer .f-background p{
+	font-size: .24rem;
+}
+.footer .f-background p a{
+	font-size: .24rem;
+	color: #09bb07;
+	text-decoration: underline;
+}
+.f-middle{
+	display: flex;
+	flex-direction: column;
+}
+.f-middle .f-flex .f-item{
+	position: relative;
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: .4rem;
+}
+.f-middle .f-flex .f-item p{
+	line-height: .44rem;
+}
+.f-middle .f-flex .f-item .radius{
+	position: absolute;
+	left: .4rem;
+	width: .44rem;
+	height: .44rem;
+}
+.f-middle .f-flex .f-item .radius2{
+	position: absolute;
+	bottom: .3rem;
+	left: .65rem;
+	width: .30rem;
+	height: .26rem;
+}

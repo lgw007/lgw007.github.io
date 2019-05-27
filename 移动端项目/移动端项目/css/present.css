@@ -1,0 +1,116 @@
+@media screen and (max-width: 375px) {
+	html{
+		font-size: 50px;
+	}
+}
+@media screen and (min-width: 376px) {
+	 .container-middle .reday{
+		position: absolute;
+		border-radius: 50%;
+		opacity: 0.7;
+		background: #b2b2b2;
+		width: 2rem;
+		height: 2rem;
+		top: .7rem;
+		right: 4.1rem;
+		/* display: none; */
+	}
+	.container-middle-2 .item-p{
+		width: 35%;
+	}
+}
+.header{
+	position: relative;
+	padding: .63rem 0.65rem;
+	text-align: center;
+}
+.header img{
+	position: absolute;
+	left: .2rem;
+	width: .20rem;
+	height: .35rem;
+}
+.header p{
+	font-size: .36rem;
+	color: #000000;
+}
+.container{
+	padding: 0 .29rem;
+}
+.container-middle{
+	position: relative;
+	text-align: center;
+	padding: .23rem 2.19rem 0;
+}
+.container-middle img{
+	width: 2.49rem;
+	height: 2.95rem;
+}
+.container-middle p{
+	font-size: .3rem;
+	color: #FFFFFF;
+	font-weight: 300;
+	margin: .3rem 0 .33rem;
+	line-height: 1.5rem;
+}
+ .reday{
+		position: absolute;
+		border-radius: 50%;
+		opacity: 0.7;
+		background: #b2b2b2;
+		width: 2rem;
+		height: 2rem;
+		top: .7rem;
+		right: 2.5rem;
+		/* display: none; */
+}
+.container-middle .reday img{
+	width: 2rem;
+	height: 2rem;
+}
+/* .container-middle a:hover .reday{
+	display: block;
+} */
+.container .container-middle-2{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	border: 1px solid #e0e0e0;
+	border-radius: .25rem;
+	padding: .38rem .5rem .4rem;
+	margin-bottom: .25rem;
+}
+.container-middle-2 .item-p{
+	/* width: 45%; */
+	font-size: .28rem;
+	color: #656565;
+	margin-bottom: .4rem;
+}
+.container-middle-2 .item-p:nth-child(1){
+	margin-right: 2rem;
+}
+.container-middle-2 .item-p:nth-child(3){
+	margin-right: 2rem;
+}
+.container-middle-2 .item-p:nth-child(5){
+	margin-right: 1rem;
+}
+.container-middle-3 p{
+	font-size: .24rem;
+	color: #576b95;
+	margin-bottom: .15rem;
+}
+.container-middle-3 .textarea{
+	width: 6.9rem;
+	height: 2.38rem;
+	border: 1px solid #e0e0e0;
+	border-radius: .2rem;
+	overflow: hidden;
+}
+.footer{
+	padding: .74rem 0 .59rem;
+}
+.footer img{
+	width: 96%;
+	
+}
