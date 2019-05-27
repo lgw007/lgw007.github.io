@@ -49,14 +49,14 @@
 	align-items: center;
 	margin-bottom: .55rem;
 }
-.gift-img .item-img img01{
+.gift-img .item-img .img01{
 	width: 2.26rem;
 	height: 2.49rem;
 }
 .gift-img .item-img-1{
 	margin-bottom: .47rem;
 }
-.gift-img .item-img img02{
+.gift-img .item-img .img02{
 	width: .66rem;
 	height: .66rem;
 }
